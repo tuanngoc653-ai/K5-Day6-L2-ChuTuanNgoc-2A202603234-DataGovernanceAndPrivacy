@@ -11,7 +11,7 @@
 | Challenge | T08 · Retention & Delete Request Simulator |
 | Thành viên + vai trò | 1. Chu Tuan Ngoc — làm đơn, đảm nhận mọi vai trò (integrator, core algorithm, QA/metric, review, report) |
 | Git URL | https://github.com/tuanngoc653-ai/K5-Day6-L2-ChuTuanNgoc-2A202603234-DataGovernanceAndPrivacy |
-| Tag `demo-180m` (commit) | ____ (`git tag -a demo-180m`) |
+| Tag `demo-180m` (commit) | `demo-180m` → commit chứa report này (sau cf5a905, 844e01d) |
 | Tag `final-24h` (commit) | ____ |
 | Deadline (giờ VN) | ____ |
 
@@ -113,7 +113,7 @@ pytest -q
 ```
 
 - `pytest -q`: **57 passed, 39 skipped** (skipped = cần GT giảng viên), 0 failed. 10 test nhóm trong `tests/test_t08.py`: E2E success, idempotency 2 lần, legal hold, backup+embedding trong scope, exception ACL/origin/multi-subject/export, identity chưa xác minh, input bị sửa ⇒ exit 2 (provenance), review thiếu reviewer ⇒ exit 2, human xóa legal hold ⇒ REWORK, GO + mock delete idempotent.
-- Máy: Windows 11 (10.0.26200), AMD64 Family 25, Python 3.15.0 · git sha: ____
+- Máy: Windows 11 (10.0.26200), AMD64 Family 25, Python 3.15.0 · git sha: cf5a905 (code), 844e01d (reports)
 
 ## 09 · Limitations & ethics
 
@@ -127,7 +127,7 @@ pytest -q
 
 | Học viên | Git author/email | Module / vai trò | Commit SHA | Trình bày? |
 |---|---|---|---|---|
-| Chu Tuan Ngoc (solo) | Tuan Ngoc / 352845328+tuanngoc653-ai@users.noreply.github.com | Tất cả: pipeline, engine, policy, baseline, tests, report | ____ | có |
+| Chu Tuan Ngoc (solo) | Tuan Ngoc / 352845328+tuanngoc653-ai@users.noreply.github.com | Tất cả: pipeline, engine, policy, baseline, tests, report | cf5a905, 844e01d | có |
 
 ## 11 · References
 
@@ -145,4 +145,4 @@ pytest -q
 - [x] Đúng 1 lệnh run, 1 lệnh evaluate, 1 lệnh tests; không cần download khi chạy.
 - [x] Có baseline/PoC metrics (self-check), ≥1 failure case, decision log, reviewer evidence (`reports/review_queue.csv`, 62/62 approve).
 - [x] License/source provenance, seed, offline, N.
-- [ ] Link repo + tag cuối cùng; commit SHA trong bảng trên.
+- [x] Link repo + tag `demo-180m`; commit SHA trong bảng trên. [ ] tag `final-24h`.
