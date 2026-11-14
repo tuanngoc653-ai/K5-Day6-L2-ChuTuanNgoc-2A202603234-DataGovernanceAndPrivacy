@@ -1,0 +1,52 @@
+# T08 deletion policy — versioned, frozen BEFORE any evaluation.
+# Learning material only, NOT legal advice: every rule marked needs_legal_review must be confirmed by DPO/legal.
+version: "t08-policy-1.0"
+frozen_at: "2026-11-14"
+frozen_by: "Chu Tuan Ngoc (solo, policy owner)"
+pipeline_actor: data-platform        # the identity our deletion job runs as (must be in artefact ACL)
+
+# Evaluated top-down; first matching rule wins (precedence: legal hold > identity > permission > origin > multi-subject > lineage > delete)
+rules:
+  - id: R-HOLD-01
+    when: legal_hold_set
+    action: retain_legal_hold
+    reason_code: LEGAL_HOLD
+    source: "GDPR Art.17(3)(e) (legal claims); Luật BVDLCN 91/2025 — ngoại lệ quyền xóa khi có nghĩa vụ pháp lý"
+    needs_legal_review: true
+    note: "Retain until hold released; schedule re-check (delete when hold lifted)."
+  - id: R-ID-01
+    when: identity_not_verified
+    action: escalate
+    reason_code: IDENTITY_NOT_VERIFIED
+    source: "GDPR Art.12(6) — controller may request additional information to confirm identity"
+    needs_legal_review: false
+  - id: R-ACL-01
+    when: actor_not_in_acl
+    action: escalate
+    reason_code: NO_DELETE_PERMISSION
+    source: "Internal data-ownership policy (mock): only the ACL owner may delete; route to owner/processor (GDPR Art.28)"
+    needs_legal_review: false
+  - id: R-ORIGIN-01
+    when: origin_unknown
+    action: escalate
+    reason_code: ORIGIN_UNKNOWN
+    source: "Provenance requirement (Data Cards Playbook); cannot prove artefact belongs only to the requester"
+    needs_legal_review: false
+  - id: R-MULTI-01
+    when: multi_subject
+    action: escalate
+    reason_code: MULTI_SUBJECT_SHARED
+    source: "GDPR Art.17 applies to requester's data only; other subjects' data/rights (Art.15(4)) — redact or rebuild instead of deleting"
+    needs_legal_review: true
+  - id: R-LINEAGE-01
+    when: lineage_subject_mismatch
+    action: escalate
+    reason_code: DERIVED_SUBJECT_UNTAGGED
+    source: "Derived from requester's artefact but not tagged with requester — tagging may be wrong; human must confirm"
+    needs_legal_review: false
+  - id: R-DEL-01
+    when: always
+    action: delete
+    reason_code: ERASURE_REQUEST
+    source: "GDPR Art.17(1); Luật BVDLCN 91/2025 — quyền xóa dữ liệu; NĐ 356/2025"
+    needs_legal_review: false

@@ -1,0 +1,2 @@
+# Keep fixtures byte-identical on every OS (manifest.csv pins sha256; core.autocrlf would break it)
+fixtures/** -text
