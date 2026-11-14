@@ -1,0 +1,165 @@
+request_id,artefact_id,expected_action,artefact_type,why
+DR-001,a0011,escalate,frame,shared by 2 subjects
+DR-001,a0012,escalate,face_crop,derived but tagged ['subj_00']
+DR-001,a0013,escalate,embedding,derived but tagged ['subj_00']
+DR-001,a0014,escalate,annotation,shared by 2 subjects
+DR-001,a0015,delete,raw_video,raw_video of subj_01
+DR-001,a0016,delete,backup,backup of subj_01
+DR-001,a0017,delete,frame,frame of subj_01
+DR-001,a0018,delete,face_crop,face_crop of subj_01
+DR-001,a0019,delete,embedding,embedding of subj_01
+DR-001,a0020,delete,annotation,annotation of subj_01
+DR-001,a0021,delete,frame,frame of subj_01
+DR-001,a0022,delete,face_crop,face_crop of subj_01
+DR-001,a0023,delete,embedding,embedding of subj_01
+DR-001,a0024,delete,annotation,annotation of subj_01
+DR-001,a0025,delete,frame,frame of subj_01
+DR-001,a0026,delete,face_crop,face_crop of subj_01
+DR-001,a0027,delete,embedding,embedding of subj_01
+DR-001,a0028,delete,annotation,annotation of subj_01
+DR-001,a0212,escalate,training_export,shared by 9 subjects
+DR-002,a0043,retain_legal_hold,raw_video,legal hold LH-2026-03
+DR-002,a0044,delete,backup,backup of subj_03
+DR-002,a0045,delete,frame,frame of subj_03
+DR-002,a0046,delete,face_crop,face_crop of subj_03
+DR-002,a0047,delete,embedding,embedding of subj_03
+DR-002,a0048,delete,annotation,annotation of subj_03
+DR-002,a0049,delete,frame,frame of subj_03
+DR-002,a0050,delete,face_crop,face_crop of subj_03
+DR-002,a0051,delete,embedding,embedding of subj_03
+DR-002,a0052,delete,annotation,annotation of subj_03
+DR-002,a0053,delete,frame,frame of subj_03
+DR-002,a0054,delete,face_crop,face_crop of subj_03
+DR-002,a0055,delete,embedding,embedding of subj_03
+DR-002,a0056,delete,annotation,annotation of subj_03
+DR-002,a0211,escalate,training_export,shared by 10 subjects
+DR-003,a0057,delete,raw_video,raw_video of subj_04
+DR-003,a0058,delete,backup,backup of subj_04
+DR-003,a0059,delete,frame,frame of subj_04
+DR-003,a0060,delete,face_crop,face_crop of subj_04
+DR-003,a0061,delete,embedding,embedding of subj_04
+DR-003,a0062,delete,annotation,annotation of subj_04
+DR-003,a0063,delete,frame,frame of subj_04
+DR-003,a0064,delete,face_crop,face_crop of subj_04
+DR-003,a0065,delete,embedding,embedding of subj_04
+DR-003,a0066,delete,annotation,annotation of subj_04
+DR-003,a0067,escalate,frame,shared by 2 subjects
+DR-003,a0068,delete,face_crop,face_crop of subj_04
+DR-003,a0069,delete,embedding,embedding of subj_04
+DR-003,a0070,escalate,annotation,shared by 2 subjects
+DR-003,a0211,escalate,training_export,shared by 10 subjects
+DR-003,a0212,escalate,training_export,shared by 9 subjects
+DR-004,a0067,escalate,frame,shared by 2 subjects
+DR-004,a0068,escalate,face_crop,derived but tagged ['subj_04']
+DR-004,a0069,escalate,embedding,derived but tagged ['subj_04']
+DR-004,a0070,escalate,annotation,shared by 2 subjects
+DR-004,a0071,delete,raw_video,raw_video of subj_05
+DR-004,a0072,delete,backup,backup of subj_05
+DR-004,a0073,delete,frame,frame of subj_05
+DR-004,a0074,delete,face_crop,face_crop of subj_05
+DR-004,a0075,escalate,embedding,origin unknown
+DR-004,a0076,delete,annotation,annotation of subj_05
+DR-004,a0077,delete,frame,frame of subj_05
+DR-004,a0078,delete,face_crop,face_crop of subj_05
+DR-004,a0079,escalate,embedding,origin unknown
+DR-004,a0080,delete,annotation,annotation of subj_05
+DR-004,a0081,delete,frame,frame of subj_05
+DR-004,a0082,delete,face_crop,face_crop of subj_05
+DR-004,a0083,escalate,embedding,origin unknown
+DR-004,a0084,delete,annotation,annotation of subj_05
+DR-004,a0211,escalate,training_export,shared by 10 subjects
+DR-004,a0212,escalate,training_export,shared by 9 subjects
+DR-005,a0099,retain_legal_hold,raw_video,legal hold LH-2026-07
+DR-005,a0100,delete,backup,backup of subj_07
+DR-005,a0101,delete,frame,frame of subj_07
+DR-005,a0102,delete,face_crop,face_crop of subj_07
+DR-005,a0103,delete,embedding,embedding of subj_07
+DR-005,a0104,delete,annotation,annotation of subj_07
+DR-005,a0105,delete,frame,frame of subj_07
+DR-005,a0106,delete,face_crop,face_crop of subj_07
+DR-005,a0107,delete,embedding,embedding of subj_07
+DR-005,a0108,delete,annotation,annotation of subj_07
+DR-005,a0109,delete,frame,frame of subj_07
+DR-005,a0110,delete,face_crop,face_crop of subj_07
+DR-005,a0111,delete,embedding,embedding of subj_07
+DR-005,a0112,delete,annotation,annotation of subj_07
+DR-005,a0211,escalate,training_export,shared by 10 subjects
+DR-005,a0212,escalate,training_export,shared by 9 subjects
+DR-006,a0113,delete,raw_video,raw_video of subj_08
+DR-006,a0114,delete,backup,backup of subj_08
+DR-006,a0115,delete,frame,frame of subj_08
+DR-006,a0116,delete,face_crop,face_crop of subj_08
+DR-006,a0117,delete,embedding,embedding of subj_08
+DR-006,a0118,delete,annotation,annotation of subj_08
+DR-006,a0119,delete,frame,frame of subj_08
+DR-006,a0120,delete,face_crop,face_crop of subj_08
+DR-006,a0121,delete,embedding,embedding of subj_08
+DR-006,a0122,delete,annotation,annotation of subj_08
+DR-006,a0123,escalate,frame,shared by 2 subjects
+DR-006,a0124,delete,face_crop,face_crop of subj_08
+DR-006,a0125,delete,embedding,embedding of subj_08
+DR-006,a0126,escalate,annotation,shared by 2 subjects
+DR-007,a0123,escalate,frame,shared by 2 subjects
+DR-007,a0124,escalate,face_crop,derived but tagged ['subj_08']
+DR-007,a0125,escalate,embedding,derived but tagged ['subj_08']
+DR-007,a0126,escalate,annotation,shared by 2 subjects
+DR-007,a0127,delete,raw_video,raw_video of subj_09
+DR-007,a0128,delete,backup,backup of subj_09
+DR-007,a0129,delete,frame,frame of subj_09
+DR-007,a0130,delete,face_crop,face_crop of subj_09
+DR-007,a0131,delete,embedding,embedding of subj_09
+DR-007,a0132,delete,annotation,annotation of subj_09
+DR-007,a0133,delete,frame,frame of subj_09
+DR-007,a0134,delete,face_crop,face_crop of subj_09
+DR-007,a0135,delete,embedding,embedding of subj_09
+DR-007,a0136,delete,annotation,annotation of subj_09
+DR-007,a0137,delete,frame,frame of subj_09
+DR-007,a0138,delete,face_crop,face_crop of subj_09
+DR-007,a0139,delete,embedding,embedding of subj_09
+DR-007,a0140,delete,annotation,annotation of subj_09
+DR-007,a0211,escalate,training_export,shared by 10 subjects
+DR-008,a0155,delete,raw_video,raw_video of subj_11
+DR-008,a0156,escalate,backup,acl=['vendor-x']
+DR-008,a0157,delete,frame,frame of subj_11
+DR-008,a0158,delete,face_crop,face_crop of subj_11
+DR-008,a0159,delete,embedding,embedding of subj_11
+DR-008,a0160,delete,annotation,annotation of subj_11
+DR-008,a0161,delete,frame,frame of subj_11
+DR-008,a0162,delete,face_crop,face_crop of subj_11
+DR-008,a0163,delete,embedding,embedding of subj_11
+DR-008,a0164,delete,annotation,annotation of subj_11
+DR-008,a0165,delete,frame,frame of subj_11
+DR-008,a0166,delete,face_crop,face_crop of subj_11
+DR-008,a0167,delete,embedding,embedding of subj_11
+DR-008,a0168,delete,annotation,annotation of subj_11
+DR-008,a0211,escalate,training_export,shared by 10 subjects
+DR-009,a0169,delete,raw_video,raw_video of subj_12
+DR-009,a0170,delete,backup,backup of subj_12
+DR-009,a0171,delete,frame,frame of subj_12
+DR-009,a0172,delete,face_crop,face_crop of subj_12
+DR-009,a0173,delete,embedding,embedding of subj_12
+DR-009,a0174,delete,annotation,annotation of subj_12
+DR-009,a0175,delete,frame,frame of subj_12
+DR-009,a0176,delete,face_crop,face_crop of subj_12
+DR-009,a0177,delete,embedding,embedding of subj_12
+DR-009,a0178,delete,annotation,annotation of subj_12
+DR-009,a0179,escalate,frame,shared by 2 subjects
+DR-009,a0180,delete,face_crop,face_crop of subj_12
+DR-009,a0181,delete,embedding,embedding of subj_12
+DR-009,a0182,escalate,annotation,shared by 2 subjects
+DR-009,a0211,escalate,training_export,shared by 10 subjects
+DR-010,a0197,delete,raw_video,raw_video of subj_14
+DR-010,a0198,delete,backup,backup of subj_14
+DR-010,a0199,delete,frame,frame of subj_14
+DR-010,a0200,delete,face_crop,face_crop of subj_14
+DR-010,a0201,delete,embedding,embedding of subj_14
+DR-010,a0202,delete,annotation,annotation of subj_14
+DR-010,a0203,delete,frame,frame of subj_14
+DR-010,a0204,delete,face_crop,face_crop of subj_14
+DR-010,a0205,delete,embedding,embedding of subj_14
+DR-010,a0206,delete,annotation,annotation of subj_14
+DR-010,a0207,delete,frame,frame of subj_14
+DR-010,a0208,delete,face_crop,face_crop of subj_14
+DR-010,a0209,delete,embedding,embedding of subj_14
+DR-010,a0210,delete,annotation,annotation of subj_14
+DR-010,a0211,escalate,training_export,shared by 10 subjects

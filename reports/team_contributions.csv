@@ -1,6 +1,2 @@
 member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
-Member 1,,,Lead / Integrator,src/main.py; configs/,,,
-Member 2,,,Data & fixtures,fixtures/; tools/,,,
-Member 3,,,Core algorithm,src/pipeline.py,,,
-Member 4,,,QA / metric,tests/; reports/metrics_*.json,,,
-Member 5,,,Human review + report,reports/group_report.md; demo/,,,
+Chu Tuan Ngoc (solo),Tuan Ngoc,352845328+tuanngoc653-ai@users.noreply.github.com,"All roles (solo): integrator, core algorithm, QA/metric, human review, report",src/pipeline.py; src/t08_engine.py; src/baselines/t08_filename_baseline.py; configs/lab.yaml; configs/policies/t08_deletion_policy.yaml; tests/test_t08.py; tools/make_selfcheck_t08.py; reports/; .gitattributes,TBD (fill after commit: git log --author="Tuan Ngoc" --format=%h),Solo submission — approved to work alone,yes

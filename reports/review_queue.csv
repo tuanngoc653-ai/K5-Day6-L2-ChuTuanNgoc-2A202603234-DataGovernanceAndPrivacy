@@ -1,0 +1,63 @@
+rank,item_id,score,reason,suggested_action,slice,evidence_path,reviewer,reviewer_decision,override_value,review_note,reviewed_at
+1,DR-002|a0043,1.0,R-HOLD-01 LEGAL_HOLD | raw_video:a0043,retain_legal_hold,DR-002:raw_video,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+2,DR-005|a0099,1.0,R-HOLD-01 LEGAL_HOLD | raw_video:a0099,retain_legal_hold,DR-005:raw_video,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+3,DR-008|a0156,0.9,R-ACL-01 NO_DELETE_PERMISSION | raw_video:a0155 > backup:a0156,escalate,DR-008:backup,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+4,DR-004|a0075,0.8,R-ORIGIN-01 ORIGIN_UNKNOWN | raw_video:a0071 > frame:a0073 > face_crop:a0074 > embedding:a0075,escalate,DR-004:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+5,DR-004|a0079,0.8,R-ORIGIN-01 ORIGIN_UNKNOWN | raw_video:a0071 > frame:a0077 > face_crop:a0078 > embedding:a0079,escalate,DR-004:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+6,DR-004|a0083,0.8,R-ORIGIN-01 ORIGIN_UNKNOWN | raw_video:a0071 > frame:a0081 > face_crop:a0082 > embedding:a0083,escalate,DR-004:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+7,DR-001|a0011,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0001 > frame:a0011,escalate,DR-001:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+8,DR-001|a0014,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0001 > frame:a0011 > annotation:a0014,escalate,DR-001:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+9,DR-001|a0212,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0015 > frame:a0017 > face_crop:a0018 > training_export:a0212,escalate,DR-001:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+10,DR-002|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-002:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+11,DR-003|a0067,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0057 > frame:a0067,escalate,DR-003:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+12,DR-003|a0070,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0057 > frame:a0067 > annotation:a0070,escalate,DR-003:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+13,DR-003|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-003:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+14,DR-003|a0212,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0015 > frame:a0017 > face_crop:a0018 > training_export:a0212,escalate,DR-003:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+15,DR-004|a0067,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0057 > frame:a0067,escalate,DR-004:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+16,DR-004|a0070,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0057 > frame:a0067 > annotation:a0070,escalate,DR-004:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+17,DR-004|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-004:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+18,DR-004|a0212,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0015 > frame:a0017 > face_crop:a0018 > training_export:a0212,escalate,DR-004:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+19,DR-005|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-005:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+20,DR-005|a0212,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0015 > frame:a0017 > face_crop:a0018 > training_export:a0212,escalate,DR-005:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+21,DR-006|a0123,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0113 > frame:a0123,escalate,DR-006:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+22,DR-006|a0126,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0113 > frame:a0123 > annotation:a0126,escalate,DR-006:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+23,DR-007|a0123,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0113 > frame:a0123,escalate,DR-007:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+24,DR-007|a0126,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0113 > frame:a0123 > annotation:a0126,escalate,DR-007:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+25,DR-007|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-007:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+26,DR-008|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-008:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+27,DR-009|a0179,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0169 > frame:a0179,escalate,DR-009:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+28,DR-009|a0182,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0169 > frame:a0179 > annotation:a0182,escalate,DR-009:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+29,DR-009|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-009:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+30,DR-010|a0211,0.7,R-MULTI-01 MULTI_SUBJECT_SHARED | raw_video:a0155 > frame:a0165 > face_crop:a0166 > training_export:a0211,escalate,DR-010:training_export,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+31,DR-001|a0012,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0001 > frame:a0011 > face_crop:a0012,escalate,DR-001:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+32,DR-001|a0013,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0001 > frame:a0011 > face_crop:a0012 > embedding:a0013,escalate,DR-001:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+33,DR-004|a0068,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0057 > frame:a0067 > face_crop:a0068,escalate,DR-004:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+34,DR-004|a0069,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0057 > frame:a0067 > face_crop:a0068 > embedding:a0069,escalate,DR-004:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+35,DR-007|a0124,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0113 > frame:a0123 > face_crop:a0124,escalate,DR-007:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+36,DR-007|a0125,0.6,R-LINEAGE-01 DERIVED_SUBJECT_UNTAGGED | raw_video:a0113 > frame:a0123 > face_crop:a0124 > embedding:a0125,escalate,DR-007:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+37,DR-002|a0044,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > backup:a0044,delete,DR-002:backup,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+38,DR-002|a0045,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0045,delete,DR-002:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+39,DR-002|a0046,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0045 > face_crop:a0046,delete,DR-002:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+40,DR-002|a0047,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0045 > face_crop:a0046 > embedding:a0047,delete,DR-002:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+41,DR-002|a0048,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0045 > annotation:a0048,delete,DR-002:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+42,DR-002|a0049,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0049,delete,DR-002:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+43,DR-002|a0050,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0049 > face_crop:a0050,delete,DR-002:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+44,DR-002|a0051,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0049 > face_crop:a0050 > embedding:a0051,delete,DR-002:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+45,DR-002|a0052,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0049 > annotation:a0052,delete,DR-002:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+46,DR-002|a0053,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0053,delete,DR-002:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+47,DR-002|a0054,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0053 > face_crop:a0054,delete,DR-002:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+48,DR-002|a0055,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0053 > face_crop:a0054 > embedding:a0055,delete,DR-002:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+49,DR-002|a0056,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0043 | raw_video:a0043 > frame:a0053 > annotation:a0056,delete,DR-002:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+50,DR-005|a0100,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > backup:a0100,delete,DR-005:backup,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+51,DR-005|a0101,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0101,delete,DR-005:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+52,DR-005|a0102,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0101 > face_crop:a0102,delete,DR-005:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+53,DR-005|a0103,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0101 > face_crop:a0102 > embedding:a0103,delete,DR-005:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+54,DR-005|a0104,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0101 > annotation:a0104,delete,DR-005:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+55,DR-005|a0105,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0105,delete,DR-005:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+56,DR-005|a0106,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0105 > face_crop:a0106,delete,DR-005:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+57,DR-005|a0107,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0105 > face_crop:a0106 > embedding:a0107,delete,DR-005:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+58,DR-005|a0108,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0105 > annotation:a0108,delete,DR-005:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+59,DR-005|a0109,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0109,delete,DR-005:frame,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+60,DR-005|a0110,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0109 > face_crop:a0110,delete,DR-005:face_crop,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+61,DR-005|a0111,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0109 > face_crop:a0110 > embedding:a0111,delete,DR-005:embedding,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z
+62,DR-005|a0112,0.5,R-DEL-01 ERASURE_REQUEST;HELD_ANCESTOR:a0099 | raw_video:a0099 > frame:a0109 > annotation:a0112,delete,DR-005:annotation,,Chu Tuan Ngoc,approve,,,2026-11-14T08:37:16.050Z

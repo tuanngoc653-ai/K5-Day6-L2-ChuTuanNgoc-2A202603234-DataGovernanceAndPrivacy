@@ -1,0 +1,15 @@
+group_id: SOLO-2A202603234
+input: fixtures/t08_deletion
+offline: true
+output: out/
+owner: Chu Tuan Ngoc (Data Protection reviewer / policy owner)
+params:
+  as_of: '2026-11-14T09:00:00+07:00'
+  budget: 80
+  dry_run: true
+  hold_propagates_to_descendants: true
+  policy: configs/policies/t08_deletion_policy.yaml
+seed: 42
+strict_provenance: true
+track: t08
+track_config: ../../configs/tracks/t08.yaml
